@@ -1,0 +1,43 @@
+
+
+
+.bar{
+    width: 93%;
+    height: 10vh;
+    background-color:black;
+    margin: auto;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    flex-basis:80%;
+    height: 40%;
+}
+
+
+.click{
+    color:lightgrey;
+    background-color: gray;
+    height: 40%;
+    width: 2%;
+    margin: 8px;
+    scale: 1.2;
+    border: 0;
+}
+
+.fa-youtube{
+    font-size: large;
+    scale: 5;
+    width: 20px;
+    height: 20%;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: azure;
+    margin: 0 10px;
+}

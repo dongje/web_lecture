@@ -1,0 +1,37 @@
+
+
+
+.pane{
+  text-align: center;
+  background-color: bisque;
+}
+
+.content{
+  display: flex;
+}
+
+.videodetail{
+  /* width: 600%;
+  background-color: aqua; */
+  margin-left: 4%;
+  flex: 1 1 70%;
+}
+
+.list{
+  flex: 1 1 30%;
+}
+
+
+@media screen and (max-width:1084) {
+
+  .content{
+    flex-direction: column;
+
+  }
+
+  .videodetail{
+    background-color: blue;
+
+  }
+
+}
